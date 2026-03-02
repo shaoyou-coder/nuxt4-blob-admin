@@ -1,6 +1,15 @@
 ## 项目介绍
 博客管理系统（Admin），基于 **Vue3 + Vite + TypeScript + Element Plus**，内置 **axios 请求封装**、**路由登录拦截**、**Pinia 状态持久化**、以及常用的业务组件（表格/分页/上传/富文本/图片预览等）。
 
+## 项目效果图
+<img width="1920" height="919" alt="51b8ccdb560a29254d48d81ddd52402" src="https://github.com/user-attachments/assets/2cb408f2-2312-4bfd-98af-f54b238f28b9" />
+<img width="1920" height="916" alt="0c21a037ca749f850d0d3a99763b1b8" src="https://github.com/user-attachments/assets/615efc2e-186b-42da-bea9-3d0adc9e8a00" />
+<img width="1920" height="916" alt="e7e957ae85cb218e3e8a72658cdc692" src="https://github.com/user-attachments/assets/e4db402b-61a0-4de8-b226-483362bc5f22" />
+<img width="1920" height="917" alt="09a435057142f90d08bcfa7891ce774" src="https://github.com/user-attachments/assets/dd94805d-5715-412b-a32e-f2f0e62b47f8" />
+
+## 对应博客网站仓库地址
+[四季博客网站仓库地址](https://github.com/shaoyou-coder/nuxt4-blob-web)
+
 ## 技术栈
 - **框架**: Vue 3
 - **构建工具**: Vite 4
