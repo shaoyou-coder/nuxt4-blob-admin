@@ -1,0 +1,18 @@
+@import './base.css';
+@import './theme.css';
+
+/* :root {
+  --el-color-primary: #4BBD00 !important;
+  --el-color-primary-light-3: #abe485 !important;
+  --el-color-primary-dark-2:  #4BBD00 !important;
+  --el-color-primary-light-9: #f0ffe7 !important;
+} */
+.el-pagination{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+ }
+ .el-pager {
+  display: flex;
+  flex-wrap: wrap;
+ }

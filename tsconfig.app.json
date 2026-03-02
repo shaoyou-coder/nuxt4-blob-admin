@@ -1,0 +1,34 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "auto-imports.d.ts",
+    "components.d.ts",
+    "types/**/*"
+  ],
+  "exclude": [
+    "src/**/__tests__/*",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "#types/*": [
+        "./types/*"
+      ],
+      "@config": [
+        "./src/config/index.ts"
+      ]
+    }
+  }
+}

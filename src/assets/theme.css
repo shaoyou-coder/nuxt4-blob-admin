@@ -1,0 +1,540 @@
+/* 暗色主题样式变量 */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #303133;
+  --border-color: #dcdfe6;
+  --content-bg: #ffffff;
+}
+
+.dark {
+  --bg-color: #1d1e1f;
+  --text-color: #e5eaf3;
+  --border-color: #4c4d4f;
+  --content-bg: #141414;
+}
+
+/* 全局暗色主题样式 */
+.dark body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.dark .el-header {
+  background-color: var(--bg-color);
+  border-bottom-color: var(--border-color);
+}
+
+.dark .el-aside {
+  background-color: var(--bg-color);
+  border-right-color: var(--border-color);
+}
+
+.dark .el-main {
+  background-color: var(--content-bg);
+}
+
+.dark .el-menu {
+  background-color: var(--bg-color);
+  border-right-color: var(--border-color);
+}
+
+.dark .el-menu-item {
+  color: var(--text-color);
+}
+
+.dark .el-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark .el-sub-menu__title {
+  color: var(--text-color);
+}
+
+.dark .el-sub-menu__title:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark .el-menu-item.is-active {
+  color: var(--el-color-primary);
+}
+
+/* 顶部栏暗色主题 */
+.dark .top-bar {
+  background-color: var(--bg-color);
+  border-bottom-color: var(--border-color);
+}
+
+.dark .top-bar .top-left .logo-container {
+  color: var(--text-color);
+}
+
+/* 内容区域暗色主题 */
+.dark .content-warp {
+  background-color: var(--content-bg);
+}
+
+/* 登录页暗色主题 */
+.dark .login {
+  background: var(--bg-color);
+}
+
+.dark .login-form-wrapper {
+  background-color: var(--content-bg);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark .login-form-wrapper h3 {
+  color: var(--text-color);
+}
+
+/* 面包屑暗色主题 */
+.dark .el-breadcrumb {
+  color: var(--text-color);
+}
+
+.dark .el-breadcrumb__inner {
+  color: var(--text-color);
+}
+
+/* 表格暗色主题 */
+.dark .el-table {
+  background-color: var(--content-bg);
+  color: var(--text-color);
+}
+
+.dark .el-table th.el-table__cell {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.dark .el-table tr {
+  background-color: var(--content-bg);
+}
+
+.dark .el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.dark .el-table--border {
+  border-color: var(--border-color);
+}
+
+.dark .el-table--border::after,
+.dark .el-table--border::before {
+  background-color: var(--border-color);
+}
+
+.dark .el-table td,
+.dark .el-table th {
+  border-color: var(--border-color);
+}
+
+/* 表单暗色主题 */
+.dark .el-form-item__label {
+  color: var(--text-color);
+}
+
+.dark .el-input__inner,
+.dark .el-textarea__inner {
+  background-color: var(--content-bg);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+.dark .el-input__inner:focus,
+.dark .el-textarea__inner:focus {
+  border-color: var(--el-color-primary);
+}
+
+/* 卡片暗色主题 */
+.dark .el-card {
+  background-color: var(--content-bg);
+  border-color: var(--border-color);
+}
+
+.dark .el-card__header {
+  border-bottom-color: var(--border-color);
+  color: var(--text-color);
+}
+
+/* 分页器暗色主题 */
+.dark .el-pagination {
+  color: var(--text-color);
+}
+
+.dark .el-pagination .btn-next,
+.dark .el-pagination .btn-prev {
+  background-color: var(--content-bg);
+  color: var(--text-color);
+}
+
+.dark .el-pagination .number {
+  background-color: var(--content-bg);
+  color: var(--text-color);
+}
+
+.dark .el-pagination .number:hover {
+  color: var(--el-color-primary);
+}
+
+.dark .el-pagination .number.is-active {
+  background-color: var(--el-color-primary);
+  color: #fff;
+}
+
+/* 对话框暗色主题 */
+.dark .el-dialog {
+  background-color: var(--content-bg);
+  border-color: var(--border-color);
+}
+
+.dark .el-dialog__header {
+  border-bottom-color: var(--border-color);
+}
+
+.dark .el-dialog__title {
+  color: var(--text-color);
+}
+
+/* 分割线暗色主题 */
+.dark .el-divider__text {
+  background-color: var(--content-bg);
+  color: var(--text-color);
+}
+
+.dark .el-divider {
+  border-color: var(--border-color);
+}
+
+/* 标签页暗色主题 */
+.dark .el-tabs__item {
+  color: var(--text-color);
+}
+
+.dark .el-tabs__item.is-active {
+  color: var(--el-color-primary);
+}
+
+.dark .el-tabs__active-bar {
+  background-color: var(--el-color-primary);
+}
+
+.dark .el-tabs__nav-wrap::after {
+  background-color: var(--border-color);
+}
+
+/* 选择器暗色主题 */
+.dark .el-select .el-input__inner {
+  background-color: var(--content-bg);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+.dark .el-select-dropdown {
+  background-color: var(--content-bg);
+  border-color: var(--border-color);
+}
+
+.dark .el-select-dropdown__item {
+  color: var(--text-color);
+}
+
+.dark .el-select-dropdown__item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark .el-select-dropdown__item.selected {
+  color: var(--el-color-primary);
+}
+
+/* 日期选择器暗色主题 */
+.dark .el-date-editor .el-input__inner {
+  background-color: var(--content-bg);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+.dark .el-picker__panel {
+  background-color: var(--content-bg);
+  border-color: var(--border-color);
+}
+
+.dark .el-date-table td {
+  color: var(--text-color);
+}
+
+.dark .el-date-table td.available:hover {
+  color: var(--el-color-primary);
+}
+
+/* 上传组件暗色主题 */
+.dark .el-upload {
+  border-color: var(--border-color);
+}
+
+.dark .el-upload:hover {
+  border-color: var(--el-color-primary);
+}
+
+/* 富文本编辑器暗色主题 */
+.dark .w-e-text-container {
+  background-color: var(--content-bg);
+  color: var(--text-color);
+}
+
+.dark .w-e-text-placeholder {
+  color: #909399;
+}
+
+.dark .w-e-toolbar {
+  background-color: var(--bg-color);
+  border-bottom-color: var(--border-color);
+}
+
+.dark .w-e-toolbar .w-e-bar-item {
+  color: var(--text-color);
+}
+
+.dark .w-e-toolbar .w-e-bar-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark .w-e-toolbar .w-e-bar-item.is-active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* wangEditor 代码块暗色主题 */
+.dark .w-e-text-container pre,
+.dark .w-e-text-container .w-e-text pre,
+.dark pre {
+  background-color: #1e1e1e !important;
+  color: #d4d4d4 !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px;
+  padding: 12px;
+  overflow-x: auto;
+}
+
+.dark .w-e-text-container code,
+.dark .w-e-text-container .w-e-text code,
+.dark code:not(pre code) {
+  background-color: #2d2d2d !important;
+  color: #d4d4d4 !important;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+.dark .w-e-text-container pre code,
+.dark .w-e-text-container .w-e-text pre code,
+.dark pre code {
+  background-color: transparent !important;
+  color: #d4d4d4 !important;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* wangEditor 代码块容器 */
+.dark .w-e-text-container .w-e-code-block,
+.dark .w-e-code-block {
+  background-color: #1e1e1e !important;
+  border-color: var(--border-color) !important;
+}
+
+.dark .w-e-text-container .w-e-code-block code,
+.dark .w-e-code-block code {
+  background-color: transparent !important;
+  color: #d4d4d4 !important;
+}
+
+/* 代码高亮库暗色主题支持 */
+.dark .w-e-text-container .hljs,
+.dark .w-e-text-container pre .hljs,
+.dark pre .hljs {
+  background-color: #1e1e1e !important;
+  color: #d4d4d4 !important;
+}
+
+.dark .w-e-text-container .hljs-keyword,
+.dark .w-e-text-container .hljs-selector-tag,
+.dark .w-e-text-container .hljs-built_in,
+.dark .w-e-text-container .hljs-name,
+.dark .w-e-text-container .hljs-tag {
+  color: #569cd6 !important;
+}
+
+.dark .w-e-text-container .hljs-string,
+.dark .w-e-text-container .hljs-title,
+.dark .w-e-text-container .hljs-section,
+.dark .w-e-text-container .hljs-attribute,
+.dark .w-e-text-container .hljs-literal,
+.dark .w-e-text-container .hljs-template-tag,
+.dark .w-e-text-container .hljs-template-variable,
+.dark .w-e-text-container .hljs-type,
+.dark .w-e-text-container .hljs-addition {
+  color: #ce9178 !important;
+}
+
+.dark .w-e-text-container .hljs-comment,
+.dark .w-e-text-container .hljs-quote,
+.dark .w-e-text-container .hljs-deletion,
+.dark .w-e-text-container .hljs-meta {
+  color: #6a9955 !important;
+}
+
+.dark .w-e-text-container .hljs-number,
+.dark .w-e-text-container .hljs-regexp,
+.dark .w-e-text-container .hljs-symbol,
+.dark .w-e-text-container .hljs-variable,
+.dark .w-e-text-container .hljs-template-variable,
+.dark .w-e-text-container .hljs-link,
+.dark .w-e-text-container .hljs-selector-attr,
+.dark .w-e-text-container .hljs-selector-pseudo {
+  color: #b5cea8 !important;
+}
+
+.dark .w-e-text-container .hljs-function,
+.dark .w-e-text-container .hljs-title.function_ {
+  color: #dcdcaa !important;
+}
+
+/* Prism.js 代码高亮暗色主题支持 */
+.dark .w-e-text-container .token.comment,
+.dark .w-e-text-container .token.prolog,
+.dark .w-e-text-container .token.doctype,
+.dark .w-e-text-container .token.cdata {
+  color: #6a9955 !important;
+}
+
+.dark .w-e-text-container .token.punctuation {
+  color: #d4d4d4 !important;
+}
+
+.dark .w-e-text-container .token.property,
+.dark .w-e-text-container .token.tag,
+.dark .w-e-text-container .token.boolean,
+.dark .w-e-text-container .token.number,
+.dark .w-e-text-container .token.constant,
+.dark .w-e-text-container .token.symbol,
+.dark .w-e-text-container .token.deleted {
+  color: #569cd6 !important;
+}
+
+.dark .w-e-text-container .token.selector,
+.dark .w-e-text-container .token.attr-name,
+.dark .w-e-text-container .token.string,
+.dark .w-e-text-container .token.char,
+.dark .w-e-text-container .token.builtin,
+.dark .w-e-text-container .token.inserted {
+  color: #ce9178 !important;
+}
+
+.dark .w-e-text-container .token.operator,
+.dark .w-e-text-container .token.entity,
+.dark .w-e-text-container .token.url,
+.dark .w-e-text-container .language-css .token.string,
+.dark .w-e-text-container .style .token.string {
+  color: #d4d4d4 !important;
+}
+
+.dark .w-e-text-container .token.atrule,
+.dark .w-e-text-container .token.attr-value,
+.dark .w-e-text-container .token.keyword {
+  color: #569cd6 !important;
+}
+
+.dark .w-e-text-container .token.function,
+.dark .w-e-text-container .token.class-name {
+  color: #dcdcaa !important;
+}
+
+/* wangEditor 编辑器内容区域 */
+.dark .w-e-text-container .w-e-text {
+  background-color: var(--content-bg);
+  color: var(--text-color);
+}
+
+.dark .w-e-text-container p {
+  color: var(--text-color);
+}
+
+.dark .w-e-text-container h1,
+.dark .w-e-text-container h2,
+.dark .w-e-text-container h3,
+.dark .w-e-text-container h4,
+.dark .w-e-text-container h5,
+.dark .w-e-text-container h6 {
+  color: var(--text-color);
+}
+
+.dark .w-e-text-container blockquote {
+  border-left-color: var(--border-color);
+  background-color: rgba(255, 255, 255, 0.02);
+  color: var(--text-color);
+}
+
+.dark .w-e-text-container table {
+  border-color: var(--border-color);
+}
+
+.dark .w-e-text-container table th,
+.dark .w-e-text-container table td {
+  border-color: var(--border-color);
+  background-color: var(--content-bg);
+  color: var(--text-color);
+}
+
+.dark .w-e-text-container table th {
+  background-color: var(--bg-color);
+}
+
+.dark .w-e-text-container a {
+  color: var(--el-color-primary);
+}
+
+.dark .w-e-text-container a:hover {
+  color: var(--el-color-primary-light-3);
+}
+
+/* wangEditor 下拉菜单暗色主题 */
+.dark .w-e-drop-list {
+  background-color: var(--content-bg);
+  border-color: var(--border-color);
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.dark .w-e-drop-list-item {
+  color: var(--text-color);
+}
+
+.dark .w-e-drop-list-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* wangEditor 模态框暗色主题 */
+.dark .w-e-modal {
+  background-color: var(--content-bg);
+  border-color: var(--border-color);
+}
+
+.dark .w-e-modal .w-e-modal-title {
+  color: var(--text-color);
+}
+
+.dark .w-e-modal .w-e-modal-body {
+  background-color: var(--content-bg);
+  color: var(--text-color);
+}
+
+.dark .w-e-modal input,
+.dark .w-e-modal textarea {
+  background-color: var(--content-bg);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+/* wangEditor 组件容器 */
+.dark .wang-editor {
+  border-color: var(--border-color);
+}
+
