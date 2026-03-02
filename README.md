@@ -1,5 +1,6 @@
 ## 项目介绍
 博客管理系统（Admin），基于 **Vue3 + Vite + TypeScript + Element Plus**，内置 **axios 请求封装**、**路由登录拦截**、**Pinia 状态持久化**、以及常用的业务组件（表格/分页/上传/富文本/图片预览等）。
+创作不易，给个Star~
 
 ## 项目效果图
 <img width="1920" height="919" alt="51b8ccdb560a29254d48d81ddd52402" src="https://github.com/user-attachments/assets/2cb408f2-2312-4bfd-98af-f54b238f28b9" />
